@@ -1,0 +1,53 @@
+body{
+  font-family: 'Public Sans', sans-serif;
+}
+
+.active{
+  background-color: #FFC107 !important;
+  border: #FFC107 !important;
+  color: #000000 !important;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+td{
+  padding: 20px !important;
+}
+
+li{
+  list-style: none;
+}
+
+h5{
+  font-size: 16px;
+}
+
+.row-bayar{
+  width: 100%;
+  margin: auto;
+}
+
+.hasil::-webkit-scrollbar, .menu::-webkit-scrollbar, .overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil{
+    max-height: 67vh;
+  }
+
+  .menu{
+    max-height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .row-bayar{
+    width: 24%;
+    position: fixed;
+    bottom: 0;
+  }
+}
